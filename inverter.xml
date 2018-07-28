@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/andrey/lm2577_stabilizer_by_andrew/inverter/inverter.sch</source>
+    <date>Пн 18 апр 2016 01:59:52</date>
+    <tool>Eeschema no-vcs-found-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>inverter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D6_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC6066</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC60A0</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitors_ThroughHole:C_Disc_D6_P5</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC60FB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC61E1</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>INDUCTOR</value>
+      <footprint>Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC6218</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>CP</value>
+      <footprint>Capacitors_ThroughHole:C_Radial_D10_L13_P5</footprint>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC62BE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC616C</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X02</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC91F6</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X02</value>
+      <footprint>Connect:bornier2</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC98DA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM1577_LM1577</value>
+      <footprint>TO_SOT_Packages_THT:Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A</footprint>
+      <libsource lib="lm1577_lm1577" part="LM1577_LM1577"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FC6CDA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky_x2_KCom_AKA</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Neutral123_Vertical</footprint>
+      <libsource lib="device" part="D_Schottky_x2_KCom_AKA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56FD555A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_x2_KCom_AKA">
+      <description>Double diode Schottky (Serie)</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_x2_KCom_AKA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lm1577_lm1577" part="LM1577_LM1577">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1577_LM1577</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="input"/>
+        <pin num="2" name="FEED_BACK" type="output"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="SWITCH" type="output"/>
+        <pin num="5" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="lm1577_lm1577">
+      <uri>/home/andrey/lm2577_stabilizer_by_andrew/inverter/libs/lm1577_lm1577.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="U1" pin="5"/>
+      <node ref="P2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad3)">
+      <node ref="D1" pin="3"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="P2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R2-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,26 @@
+Drill report for /home/andrey/lm2577_stabilizer_by_andrew/inverter/inverter.kicad_pcb
+Created on Вт 05 июл 2016 14:43:41
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'inverter.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,80mm  0,031"  (2 holes)
+    T2  0,90mm  0,035"  (4 holes)
+    T3  1,00mm  0,039"  (11 holes)
+    T4  1,10mm  0,043"  (5 holes)
+    T5  1,52mm  0,060"  (4 holes)
+
+    Total plated holes count 26
+
+
+Drill file 'inverter-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

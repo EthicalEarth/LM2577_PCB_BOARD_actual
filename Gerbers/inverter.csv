@@ -1,0 +1,8 @@
+"Позиция";"Обозначение";"Корпус";"Количество";"Значение";"Поставщик и справка";
+1;"C1,C2";"C_Disc_D6_P5";2;"C";;;
+2;"D1";"TO-220_Neutral123_Vertical";1;"D_Schottky_x2_KCom_AKA";;;
+3;"L1";"Choke_Toroid_8x16mm_Vertical";1;"INDUCTOR";;;
+4;"P1,P2";"bornier2";2;"CONN_01X02";;;
+5;"R1,R2,R3";"Resistor_Horizontal_RM10mm";3;"R";;;
+6;"U1";"Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A";1;"LM1577_LM1577";;;
+7;"C3";"C_Radial_D10_L13_P5";1;"CP";;;
